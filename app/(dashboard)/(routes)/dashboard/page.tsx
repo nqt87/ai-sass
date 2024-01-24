@@ -27,7 +27,7 @@ export default async function DashboardPage() {
       {user && (
         <>
           <h1 className="text-3xl font-semibold text-black">
-            👋 Hi, {user.firstName || `Stranger`}
+            Hi, {user.firstName || `Stranger`}
           </h1>
           <h2 className="mt-16 mb-4 text-3xl font-semibold text-black">
             {`What's next?`}
